@@ -158,6 +158,7 @@
 <h2 id="绑定ssh密钥"><a href="#绑定ssh密钥" class="headerlink" title="绑定ssh密钥"></a>绑定ssh密钥</h2><p>点击右上角的头像进入设置，选择 <strong>SSH and GPG keys</strong> ，然后点击 <strong>New SSH key</strong> 。<br><a target="_blank" rel="noopener" href="https://imgse.com/i/pptZ8VH"><img src="https://s1.ax1x.com/2023/03/19/pptZ8VH.png" alt="pptZ8VH.png"></a><br>Title可以随意填写，重点是粘贴刚刚复制的密钥到 <strong>Key</strong> 中，最后点击 <strong>Add SSH key</strong> 完成添加。</p>
 <h2 id="验证绑定是否成功"><a href="#验证绑定是否成功" class="headerlink" title="验证绑定是否成功"></a>验证绑定是否成功</h2><p>输入以下命令</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p>如果出现successful，说明绑定成功。</p>
 <h1 id="部署网站"><a href="#部署网站" class="headerlink" title="部署网站"></a>部署网站</h1><h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>Hexo是一个快速、简洁且高效的博客框架。我们可以利用Hexo快速完成精美网站的搭建。<br>输入以下命令切换下载源。（切换为国内下载源有助于提高下载速度）</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry http://registry.npmmirror.com</span><br></pre></td></tr></table></figure>
 <p>输入以下命令安装Hexo</p>
