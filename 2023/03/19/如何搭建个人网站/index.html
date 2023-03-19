@@ -14,7 +14,7 @@
 
 
 
-<title>website | ZS_Andy</title>
+<title>从零开始零成本搭建个人网站 | ZS_Andy</title>
 
 
 
@@ -114,11 +114,19 @@
     <div class="post-info">
         <div class="tag-list">
             
+                
+                    <span class="post-tag">
+                        <a href="/tags/%E6%95%99%E7%A8%8B/">
+                            教程
+                        </a>
+                    </span>    
+                           
+            
         </div>
         <div class="post-title">
             
             
-                website
+                从零开始零成本搭建个人网站
             
             
         </div>
@@ -133,7 +141,18 @@
     </div>
 </div>
     <div class="post-content">
-    
+    <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>我是一名摄影爱好者，一直很想通过个人网站的形式展示、分享我的摄影作品。但是一般情况下，搭建网站首先需要购买域名、备案、购买云服务器，然后再进行网站的部署。这些步骤所花费的金钱和时间，对于在读的学生来说可能不太愿意接受。所以我选择通过Github Pages+Hexo来搭建个人网站。这样就可以省去购买域名和云服务器等步骤，通过GitHub的托管服务来部署我们的个人网站，并使用Hexo中大量的模板来轻松完成网站的搭建。这篇文章既是一篇教程，也是我第一次搭建网站过程的记录。</p>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><p>前往<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn">node.js官网</a>下载长期维护版。<br>安装过程全程点下一步即可。安装完成后输入</p>
+<pre><code>node -v
+</code></pre>
+<p>显示版本号说明安装成功</p>
+<h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><p>前往<a target="_blank" rel="noopener" href="https://git-scm.com/">git官网</a>下载安装包。<br>安装过程全程点下一步即可。安装完成后鼠标右键出现Git选项即为安装成功<br><a target="_blank" rel="noopener" href="https://imgse.com/i/ppYcYsx"><img src="https://s1.ax1x.com/2023/03/19/ppYcYsx.png" alt="ppYcYsx.png"></a></p>
+<h1 id="建立Github仓库"><a href="#建立Github仓库" class="headerlink" title="建立Github仓库"></a>建立Github仓库</h1><p>我们的网站想要开放给所有人浏览，就必须将网站代码部署到服务器上。万能的Github就可以提供这样的免费托管服务。  </p>
+<h2 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h2><p>点击右上角的 <strong>+</strong> 号，选择 <strong>New repository</strong><br><a target="_blank" rel="noopener" href="https://imgse.com/i/ppY0hvT"><img src="https://s1.ax1x.com/2023/03/19/ppY0hvT.png" alt="ppY0hvT.png"></a><br>在仓库名里填写：你的GitHub用户名.github.io，并选择Public。<br>比如我的用户名为zs-andy，那么我应该填写的是：zs-andy.github.io<br><a target="_blank" rel="noopener" href="https://imgse.com/i/ppY0LP1"><img src="https://s1.ax1x.com/2023/03/19/ppY0LP1.png" alt="ppY0LP1.png"></a><br>点击 <strong>Create repository</strong>，一个仓库就新建好了。</p>
+<h1 id="建立本地环境"><a href="#建立本地环境" class="headerlink" title="建立本地环境"></a>建立本地环境</h1><p>我们的网站代码的文件需要在本地生成然后上传。</p>
+<h2 id="新建文件夹"><a href="#新建文件夹" class="headerlink" title="新建文件夹"></a>新建文件夹</h2><p>新建一个文件夹，这是网站文件生成的地方。进入文件夹右键，选择Git Bash Here。之后的命令都在这里运行。</p>
+<h2 id="绑定GitHub账号"><a href="#绑定GitHub账号" class="headerlink" title="绑定GitHub账号"></a>绑定GitHub账号</h2><p>在刚刚打开的Git Bash Here里分别输入以下代码（一行一行执行）。</p>
+
 </div> 
 
 <script>
